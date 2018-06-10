@@ -39,11 +39,19 @@ li {
 
 .eyecatch-logo {
   background: url('../images/profile.jpg');
+  float: right;
   width: 120px;
   height: 150px;
   margin-top: 25px;
 }
-
+.avatar {
+    background: url('../images/profile.jpg');
+    vertical-align: middle;
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 .contact {
   background: $info;
   color: #fff;

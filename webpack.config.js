@@ -56,10 +56,5 @@ module.exports = {
       filename: 'index.html',
       inject: true,
     }),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src/index.ja.pug'),
-      filename: 'index.ja.html',
-      inject: true,
-    }),
   ],
 }

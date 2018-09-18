@@ -59,17 +59,21 @@ li {
   text-align: center;
 }
 
-.contact-each-first,
+.contact-each-first {
+  border-right: solid 1px #888;
+  margin-left: 0;
+  width: 18% !important;
+}
 .contact-each-second {
   border-right: solid 1px #888;
   margin-left: 0;
-  width: 23% !important;
+  width: 30% !important;
 }
 
 .contact-each-third {
   border-right: solid 1px #888;
   margin-left: 1%;
-  width: 32% !important;
+  width: 25% !important;
 }
 .contact-each-last {
   margin-left: 3%;

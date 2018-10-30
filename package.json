@@ -1,15 +1,15 @@
 {
   "name": "resume",
   "version": "1.1.0",
-  "description": "The resume of Kazuya Gosho",
+  "description": "The resume of Dzmitry Sankouski",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot",
     "build": "npm-run-all clean build:html screenshot:*",
     "build:html": "cross-env NODE_ENV=production webpack --progress",
     "screenshot": "npm-run-all --parallel screenshot:*",
-    "screenshot:pdf": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome  --headless --disable-gpu --print-to-pdf=dist/resume-kaz_gosho.pdf --window-size=900,1200 ./dist/index.html ",
-    "screenshot:png": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome  --headless --disable-gpu --screenshot=dist/resume-kaz_gosho.png --window-size=900,1200 ./dist/index.html",
+    "screenshot:pdf": "google-chrome  --headless --disable-gpu --print-to-pdf=dist/cv-dsankouski.pdf --window-size=900,1200 ./dist/index.html ",
+    "screenshot:png": "google-chrome  --headless --disable-gpu --screenshot=dist/cv-dsankouski.png --window-size=900,1200 ./dist/index.html",
     "clean": "rimraf dist && mkdir dist && touch dist/.gitkeep"
   },
   "keywords": ["resume", "developer", "nodejs", "webpack"],

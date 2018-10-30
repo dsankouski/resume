@@ -1,18 +1,16 @@
 {
   "name": "resume",
   "version": "1.1.0",
-  "description": "The resume of Kazuya Gosho",
+  "description": "The resume of Dzmitry Sankouski",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
     "build": "npm-run-all clean build:html screenshot",
     "build:html": "cross-env NODE_ENV=production webpack --progress",
     "screenshot": "npm-run-all --parallel screenshot:*",
-    "screenshot:pdf": "yarn run chrome --print-to-pdf=dist/resume-kaz_gosho.pdf ./dist/index.html ",
-    "screenshot:png": "yarn run chrome --screenshot=dist/resume-kaz_gosho.png ./dist/index.html",
-    "screenshot:pdf-ja": "yarn run chrome --print-to-pdf=dist/resume-kaz_gosho.ja.pdf ./dist/index.ja.html ",
-    "screenshot:png-ja": "yarn run chrome --screenshot=dist/resume-kaz_gosho.ja.png ./dist/index.ja.html",
-    "chrome": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome  --headless --disable-gpu --page-ranges=1 --window-size=900,1200",
+    "screenshot:pdf": "yarn run chrome --print-to-pdf=dist/cv-dsankouski.pdf ./dist/index.html ",
+    "screenshot:png": "yarn run chrome --screenshot=dist/cv-dsankouski.pdf ./dist/index.html",
+    "chrome": "google-chrome  --headless --disable-gpu --page-ranges=1 --window-size=900,1200",
     "clean": "rimraf dist && mkdir dist && touch dist/.gitkeep",
     "format": "prettier --write src/**/*.{js,css} README.md"
   },

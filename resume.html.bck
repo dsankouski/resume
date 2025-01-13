@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.css">
+<script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
+<style>
+  body { line-height:1.5; margin:auto; padding:3px; max-width:1024px; display:none; FONT-FAMILY:"Segoe UI",ARIAL; }
+  h1  { font-size:200%; padding:16px; border:1px solid lightgrey; BACKGROUND:#f0f0f0; }
+  h2  { border-bottom:1px solid grey; padding:2px }
+</style>
+<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
+<!--======= COPY ABOVE CODE AS HEADER, THEN FOLLOW WITH RESUME CONTENT IN MARKDOWN FORMAT =========-->
+
+<img style="float:right;border-radius:50%;width:70px;padding:6px" src="avatar-man.jpg" />
+
+<span style="float:right;padding:6px">
+  eqwewqdasdsaczxcxz@gmail <br> Nationality: Belarus
+</span>
+
+#  Embedded developer
+
+## Summary
+
+* 19 github stars programmer with wide experience ranging from business java application automation tests, to OS bootloader. I enjoy embedded programming because I appreciate working with hardware.
+* Hand-on experience in Linux systems
+* Proficient in C, Java, Git, Linux drivers, U-Boot, I2C, Docker, soldering
+
+## Working Experience
+
+#### PostmarketOS (Embedded developer, volunteer, 2020 - present)
+
+Upstreaming, writing, improving Linux drivers to bring up mainline Linux kernel on mobile devices.
+
+* U-boot [video console driver optimization, refactoring and new font](https://patchwork.ozlabs.org/project/uboot/list/?series=345006&state=*)
+* U-boot [button keyboard driver](https://patchwork.ozlabs.org/project/uboot/list/?series=337940&state=*)
+* U-boot [add chain loaded support](https://patchwork.ozlabs.org/project/uboot/list/?series=287434&state=*)
+* U-boot starqltechn board support - [1](https://patchwork.ozlabs.org/project/uboot/list/?series=349080&state=*), [2](https://patchwork.ozlabs.org/project/uboot/list/?series=267496&state=*)
+* U-boot [Samsung Galaxy 2017 A series support](https://patchwork.ozlabs.org/project/uboot/list/?series=267497&state=*)
+* Linux [add support for starqltechn](https://github.com/torvalds/linux/commit/d711b22eee55)
+* Linux add support for sagit
+* Linux [qcom clk-rcg2 driver: automated divisors calculation on a given clock rate](https://patchwork.kernel.org/project/linux-clk/list/?series=910577&archive=both&state=*)
+* Linux add support for Maxim 77705 PMIC chip (in progress)
+* Linux Samsung s2dos05 chip support
+
+#### Test automation engineer (Service engineer, 03.2017 - 09.2024)
+
+* Veloce CPQ · Full-time Mar 2022 - Oct 2024
+  * Salesforce application api automation on Java from scratch
+
+* Waste Logics Software Limited Aug 2019 - May 2022
+  * UI automation on java and webdriver from scratch
+
+* Intellectsoft Mar 2019 - Aug 2019
+  * API automation on java
+
+* EIS Group Ltd May 2018 - Mar 2019
+  * API automation on java
+
+* EPAM Systems Mar 2017 - May 2018
+  * Junior automation QA
+
+#### OJSC "Integral" (Service engineer, 09.2014 - 07.2016)
+
+* Repairing computer hardware
+* Servicing production line
+
+## Education & Qualifications
+
+* Bachelor's Degree in Eleсtronics Engineering (09.2014)
+* Belarus State University of Informatics and Radioelectronics (09.2009 ~ 09.2014)
+
+## Misc. Information
+
+* Languages: English (good), Russian (fluent/native)
+* Availability: 1 month's notice
+

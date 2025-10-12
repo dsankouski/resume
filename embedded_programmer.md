@@ -13,13 +13,22 @@
 
 ## Summary
 
-* 19 github stars programmer with wide experience ranging from business java application automation tests, to OS bootloader. I enjoy embedded programming because I appreciate working with hardware.
+* 20 github stars programmer with wide experience ranging from business java application automation tests, to OS bootloader. I enjoy embedded programming because I appreciate working with hardware.
 * Hand-on experience in Linux systems
-* Proficient in C, Java, Git, soldering, Linux drivers, U-Boot, I2C, Docker,
+* Proficient in C, Java, Git, soldering, Linux drivers, U-Boot, I2C, Docker
 
 ## Working Experience
 
-#### PostmarketOS (Embedded developer, volunteer, 2020 - present)
+#### UnicLab (Embedded developer, March 2025 - present)
+
+Working with legacy code
+
+- troubleshooting and bugfixing
+- fix git mess
+- introduce cmocka unit tests
+- gitlab static code analysis with CodeChecker
+
+#### PostmarketOS (Embedded developer, volunteer, 2020 - March 2025)
 
 Upstreaming, writing, improving Linux drivers to bring up mainline Linux kernel on mobile devices.
 
@@ -31,7 +40,7 @@ Upstreaming, writing, improving Linux drivers to bring up mainline Linux kernel 
 * Linux [add support for starqltechn](https://github.com/torvalds/linux/commit/d711b22eee55)
 * Linux add support for sagit
 * Linux [qcom clk-rcg2 driver: automated divisors calculation on a given clock rate](https://patchwork.kernel.org/project/linux-clk/list/?series=910577&archive=both&state=*)
-* Linux add support for Maxim 77705 PMIC chip (in progress)
+* Linux add support for Maxim 77705 PMIC chip
 * Linux Samsung s2dos05 chip support
 
 #### Test automation engineer (Service engineer, 03.2017 - 09.2024)
